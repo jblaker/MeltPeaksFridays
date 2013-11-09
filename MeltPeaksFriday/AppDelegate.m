@@ -13,8 +13,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   
-  [Parse setApplicationId:@"Uiq1HlYAJUQPA2nLBk41CBIcoKsG3jDcE5IwrERg"
-                clientKey:@"tA8Dri3ISKCl0GjOHYT7nQa3K1waHWNW9HAl7EG6"];
+  [Parse setApplicationId:@"5tRAN4Vrq3yzWKoRnbJ1sczY2beR1l0GEALMHcUP"
+                clientKey:@"MdCangau1VMc9uXFZbvhvxAIQnMDmcmGANS59Lpp"];
   
   self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
   self.window.backgroundColor = [UIColor whiteColor];
