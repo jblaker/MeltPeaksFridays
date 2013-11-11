@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+  <title>melt Peaks Fridays</title>
+  <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="page-header">
+      <h1>melt Peaks Fridays!</h1>
+    </div>
+
+    <div ng-controller="PeaksCtrl">
+
+      <div class="well" ng-hide="employees.length == 0">
+        There {{peopleGoingText}} going to Peaks.
+      </div>
+
+      <table class="table table-striped table-bordered" ng-cloak>
+        <tr ng-repeat="employee in employees">
+          <td>
+            {{employee.get('additional')}}
+            <span ng-show="employee.get('hasDecided') && employee.get('isGoing')">is going</span>
+            <span ng-show="employee.get('hasDecided') && !employee.get('isGoing')">is not going</span>
+            <span ng-show="!employee.get('hasDecided')">has not decided</span>
+          </td>
+        </tr>
+      </table>
+
+    </div>
+
+  </div>
+
+  <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+  <script src="http://www.parsecdn.com/js/parse-1.2.8.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+  <script src="js/peaks.js"></script>
+
+</body>
+</html>

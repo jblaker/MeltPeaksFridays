@@ -1,3 +1,6 @@
 [submodule "Lib/MBProgressHUD"]
-	path = Lib/MBProgressHUD
+	path = iOS/Lib/MBProgressHUD
+	url = https://github.com/jdg/MBProgressHUD.git
+[submodule "iOS/Lib/MBProgressHUD"]
+	path = iOS/Lib/MBProgressHUD
 	url = https://github.com/jdg/MBProgressHUD.git

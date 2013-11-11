@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2F12ACD2-306F-4DF4-95E7-4386FD030FEF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MeltPeaksFriday</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7635D29C-6747-4946-B9A1-531187648864</key>
+		<string>https://github.com/jblaker/MeltPeaksFridays.git</string>
+		<key>AA935C34-8CCB-49FF-890E-66EFC269A2E6</key>
+		<string>https://github.com/jdg/MBProgressHUD.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MeltPeaksFriday.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7635D29C-6747-4946-B9A1-531187648864</key>
+		<string>../..</string>
+		<key>AA935C34-8CCB-49FF-890E-66EFC269A2E6</key>
+		<string>../../Lib/MBProgressHUD</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jblaker/MeltPeaksFridays.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7635D29C-6747-4946-B9A1-531187648864</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AA935C34-8CCB-49FF-890E-66EFC269A2E6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MBProgressHUD</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7635D29C-6747-4946-B9A1-531187648864</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MeltPeaksFridays</string>
+		</dict>
+	</array>
+</dict>
+</plist>
